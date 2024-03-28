@@ -1,0 +1,148 @@
+{
+    "products" : {
+        "001" :{
+            "id":"001",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product01_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"양모코스터(중토토로)",
+            "category":"이웃집 토토로",
+            "price":"21,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "002" :{
+            "id":"002",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product02_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"초코케이크(마녀_소품파우치)",
+            "category":"마녀배달부 키키",
+            "price":"35,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "003" :{
+            "id":"003",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product03_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"와플소재(마녀파우치m)",
+            "category":"마녀배달부 키키",
+            "price":"21,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "004" :{
+            "id":"004",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product04_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":" 토토로와 고양이버스(돔형1단라운드도시락)",
+            "category":"이웃집 토토로",
+            "price":"18,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "005" :{
+            "id":"005",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product05_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"센과 치히로(가방)",
+            "category":"센과 치히로의 행방불명",
+            "price":"26,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "006" :{
+            "id":"006",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product06_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"천공의 성 라퓨타(무스카의 3분타이머)",
+            "category":"천공의 성 라퓨타",
+            "price":"84,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "007" :{
+            "id":"007",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product07_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"다이컷매트(마녀 꽃)",
+            "category":"마녀배달부 키키",
+            "price":"35,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "008" :{
+            "id":"008",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product08_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":" 카라비너(포뇨)",
+            "category":"벼랑위의 포뇨",
+            "price":"25,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "009" :{
+            "id":"009",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product09_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"포근한 동전지갑(보우네즈미)",
+            "category":"센과 치히로의 행방불명",
+            "price":"21,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "010" :{
+            "id":"010",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product10_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"카라비너(포르코)",
+            "category":"붉은돼지",
+            "price":"25,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "011" :{
+            "id":"011",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product11_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"PT-332 (산)",
+            "category":"원령공주",
+            "price":"25,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "012" :{
+            "id":"012",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product12_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":" 머그컵(귀를 고양이를쫒아)",
+            "category":"귀를 기울이면",
+            "price":"35,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "013" :{
+            "id":"013",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product13_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"토르메키아 장갑병ver",
+            "category":"바람계곡의 나우시카",
+            "price":"132,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "014" :{
+            "id":"014",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product14_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"헤어집게",
+            "category":"마루 밑 아리에티",
+            "price":"18,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "015" :{
+            "id":"015",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product15_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":"미니접시시리즈(오오토리사마)",
+            "category":"센과 치히로의 행방불명",
+            "price":"24,000",
+            "isNew":false,
+            "isBest":false
+        },
+        "016" :{
+            "id":"016",
+            "image":"https://firebasestorage.googleapis.com/v0/b/dotorishop-d87b9.appspot.com/o/product16_img.jpg?alt=media&token=a3593afd-f5a4-4b4c-aca8-08cd009f5ff6",
+            "name":" 키링(데롱데롱 캘시퍼))",
+            "category":"하울의 움직이는 성",
+            "price":"14,000",
+            "isNew":false,
+            "isBest":false
+        }
+    }
+}

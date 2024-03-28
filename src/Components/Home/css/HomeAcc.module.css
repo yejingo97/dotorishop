@@ -1,0 +1,60 @@
+div.acc_wrap{
+    width: 100%;
+    height: 817px;
+    margin-top: 80px;
+}
+div.acc{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+p.contents_title{
+    font: bold 30px 'Roboto';
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+div.acc_products{
+    width: 100%;
+    height: 717px;
+    margin-top: 30px;
+}
+div.acc_products_left{
+    width: 33.33%;
+    height: 100%;
+    margin-right: 5%;
+    float: left;
+}
+div.acc_products_right{
+    width: 61.66%;
+    height: 100%;
+    float: left;
+}
+ul.acc_products_list{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 3fr);
+    justify-items: stretch;
+    grid-gap: 1%;
+}
+p.acc_products_img{
+    width: 100%;
+    height: 240px;
+    background: #757575;
+}
+p.acc_products_movie{
+    font: normal 14px 'Noto Sans KR';
+    color: #9A9A9A;
+    margin-top: 15px;
+}
+p.acc_products_name{
+    font: bold 16px 'Noto Sans KR';
+    color: #000000;
+    margin-top: 5px;
+}
+p.acc_products_price{
+    font: bold 16px 'Noto Sans KR';
+    color: #000000;
+    margin-top: 10px;
+}

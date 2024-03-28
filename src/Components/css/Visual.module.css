@@ -1,0 +1,108 @@
+div.visual_wrap{
+    width: 100%;
+    height: 370px;
+    margin-top: 220px;
+}
+div.visual{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+/* div.visual_inner{
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+} */
+ul.visual_list{
+    width: 4840px;
+    height: 100%;
+}
+ul.visual_list li{
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+p.visual_title{
+    font: bold 30px 'Roboto';
+    position: absolute;
+    left: 210px;
+    top: 82px;
+}
+p.visual_txt{
+    width: 400px;
+    height: 50px;
+    font: normal 20px 'Roboto';
+    position: absolute;
+    left: 210px;
+    top: 180px;
+}
+p.visual_more{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 210px;
+    bottom: 80px;
+}
+button.visual_more_btn{
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 0px;
+    border-radius: 15px;
+    font: normal 14px/40px 'Roboto';
+    text-indent: -18px;
+}
+span.more_icon{
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+div.visual_num{
+    width: 45px;
+    height: 18px;
+    background: #61616194;
+    color: white;
+    font: normal 12px/18px 'Noto Sans KR';
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 14px;
+}
+div.visual_btn{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+}
+div.visual_btn p{   
+    width: 50px;
+    height: 50px;
+    background: #00000089;
+    font-size: 50px;
+    color: #ffffff;
+    float: left;
+}
+p.visual_left_btn{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+p.visual_right_btn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

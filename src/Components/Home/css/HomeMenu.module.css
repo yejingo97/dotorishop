@@ -1,0 +1,34 @@
+div.menu_wrap{
+    width: 100%;
+    height: 126px;
+    margin-top: 80px;
+}
+div.menu{
+    width: 1070px;
+    height: 100%;
+    margin: 0px auto;
+}
+ul.menu_list{
+    width: 100%;
+    height: 100%;
+}
+ul.menu_list li{
+    width: 10%;
+    height: 100%;
+    float: left;
+    margin-right: 2.85%;
+}
+ul.menu_list li:last-child{
+    margin-right: 0px;
+}
+p.menu_icon{
+    width: 100%;
+    height: 100px;
+    background: #EDEDED;
+    border-radius: 15px;
+}
+p.menu_txt{
+    margin-top: 8px;
+    font: normal 14px 'Noto Sans KR';
+    text-align: center;
+}

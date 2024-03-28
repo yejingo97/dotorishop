@@ -1,0 +1,114 @@
+div.sub_products_wrap{
+    width: 100%;
+    min-height: 2000px;
+    margin-top: 170px;
+}
+div.sub_products{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+h2.products_title{
+    width: 100%;
+    height: 150px;
+    font: bold 30px/150px 'Noto Sans';
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: solid 1px #DCDCDC;
+    margin-bottom: 50px;
+}
+div.products_category{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+ul.products_category_list{
+    width: 100%;
+    height: 100%;
+}
+ul.products_category_list li{
+    width: 100%;
+    height: 50px;
+    font: bold 14px/50px 'Noto Sans';
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+ul.products_category_list li span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font: normal 20px/50px 'Noto Sans';
+    display: none;
+}
+.selected{
+    color: #009CF1;
+    font: bold 14px/50px 'Noto Sans';
+}
+ul.products_category_list li.selected span{
+    display: block;
+}
+div.products{
+    width: 950px;
+    height: 100%;
+    margin-left: 50px;
+    float: left;
+}
+ul.products_list{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(4, 4fr);
+    justify-items: stretch;
+    grid-gap: 10px;
+}
+p.product_img{
+    width: 230px;
+    height: 230px;
+    background: #ccc;
+}
+p.product_img img{
+    width: 100%;
+    height: 100%;
+}
+p.product_main_category{
+    font: normal 12px 'Noto Sans';
+    color: #8E8E8E;
+    margin-bottom: 10px;
+}
+p.product_name{
+    font: bold 14px 'Noto Sans';
+    margin-bottom: 10px;
+}
+p.product_price{
+    font: bold 14px 'Noto Sans';
+    margin-bottom: 10px;
+}
+div.sub_page_num{
+    width: 152px;
+    height: 20px;
+    margin: 50px auto;
+}
+ul.sub_page_num_list{
+    width: 100%;
+    height: 100%;
+}
+ul.sub_page_num_list li{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: solid 1px #ebebeb;
+    float: left;
+    text-align: center;
+    font: bold 14px/20px 'Noto Sans';
+    margin-right: 10px;
+}
+.selected_num{
+    background: black;
+    color: white;
+    border: none;
+}
+ul.sub_page_num_list li:last-child{
+    margin-right: 0px;
+}

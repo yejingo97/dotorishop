@@ -1,0 +1,40 @@
+div.random_wrap{
+    width: 100%;
+    height: 162px;
+    margin-top: 80px;
+}
+div.random{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+ul.random_list{
+    width: 4800px;
+    height: 100%;
+}
+ul.random_list li{
+    float: left;
+    width: 25%;
+    height: 100%;
+    border-radius: 15px;
+}
+div.random_wrap img{
+    width: 100%;
+    height: 162px;
+}
+div.visual_num{
+    width: 45px;
+    height: 18px;
+    background: #61616194;
+    color: white;
+    font: normal 12px/18px 'Noto Sans KR';
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 14px;
+}
