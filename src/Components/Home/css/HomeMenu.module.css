@@ -4,7 +4,7 @@ div.menu_wrap{
     margin-top: 80px;
 }
 div.menu{
-    width: 1070px;
+    width: 851px;
     height: 100%;
     margin: 0px auto;
 }
@@ -13,10 +13,10 @@ ul.menu_list{
     height: 100%;
 }
 ul.menu_list li{
-    width: 10%;
+    width: 100px;
     height: 100%;
     float: left;
-    margin-right: 2.85%;
+    margin-right: 87px;
 }
 ul.menu_list li:last-child{
     margin-right: 0px;
@@ -26,6 +26,14 @@ p.menu_icon{
     height: 100px;
     background: #EDEDED;
     border-radius: 15px;
+    font-size: 50px;
+    line-height: 108px;
+    text-align: center;
+    transition: 0.3s ease-out;
+}
+p.menu_icon:hover{
+    background: #009CF1;
+    color: white;
 }
 p.menu_txt{
     margin-top: 8px;

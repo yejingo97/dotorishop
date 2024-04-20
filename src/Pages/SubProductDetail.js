@@ -83,7 +83,7 @@ export default function SubProductDetail() {
             <div className={Style.product_btn_wrap}>
                 <div className={Style.product_btn}>선물하기</div>
                 <div className={Style.product_btn}>장바구니</div>
-                <div className={Style.product_btn}>선물하기</div>
+                <div className={Style.product_btn}>구입하기</div>
             </div>
             </div>
         </div>
