@@ -15,3 +15,36 @@ p.contents_title{
     padding-top: 30px;
     box-sizing: border-box;
 }
+div.review_list_wrap{
+    width: 100%;
+    height: 110px;
+    margin-top: 30px;
+    background: yellow;
+}
+ul.review_list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+ul.review_list li{
+    background: red;
+}
+p.review_products_name{
+    font: normal 14px 'Noto Sans KR';
+    margin-bottom: 10px;
+}
+div.review_products_img{
+    width: 70px;
+    height: 70px;
+    background: #D9D9D9;
+    border-radius: 15px;
+    float: left;
+}
+div.review_intro{
+    width: 230px;
+    height: 70px;
+    background: #eeeeee;
+    float: left;
+}
