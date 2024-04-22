@@ -8,6 +8,9 @@ import Root from './Pages/Root';
 import Home from './Pages/Home';
 import SubProductsList from './Pages/SubProductsList';
 import SubProductDetail from './Pages/SubProductDetail';
+import Company from './Pages/Company';
+import LoginPage from './Pages/LoginPage';
+import JoinMembership from './Pages/JoinMembership';
 
 function App() {
     let router=null
@@ -34,7 +37,10 @@ function App() {
                     children:[
                         {index:true, element:<Home/>},
                         {path:'/productslist', element:<SubProductsList/>},
-                        {path:'/productslist/:productId', element:<SubProductDetail/>}
+                        {path:'/productslist/:productId', element:<SubProductDetail/>},
+                        {path:'/company', element:<Company/>},
+                        {path:'/loginpage', element:<LoginPage/>},
+                        {path:'/joinmembership', element:<JoinMembership/>}
                     ]
                 }
             ]

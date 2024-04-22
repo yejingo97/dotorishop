@@ -184,8 +184,16 @@ export default function Header() {
                     <div className={Style.loginmenu}>
                         <nav>
                             <ul className={Style.loginmenu_list}>
-                                <li>로그인</li>
-                                <li>회원가입</li>
+                                <li>
+                                    <Link to={'/loginpage'}>
+                                        로그인
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={'/joinmembership'}>
+                                        회원가입
+                                    </Link>
+                                </li>
                                 <li>장바구니
                                     <span className={Style.basket_circle}>1</span>
                                 </li>

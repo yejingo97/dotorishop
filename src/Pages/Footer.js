@@ -1,6 +1,6 @@
 import React from 'react'
 import Style from './css/Footer.module.css'
-
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -8,7 +8,11 @@ export default function Footer() {
         <div className={Style.footer_top_wrap}>
             <div className={Style.footer_top}>
               <ul className={Style.footer_top_list}>
-                <li>회사소개</li>
+                <li>
+                  <Link to={'/company'}>
+                    회사소개
+                  </Link>
+                  </li>
                 <li>이용약관</li>
                 <li>개인정보처리방침</li>
                 <li>매장안내</li>
