@@ -12,11 +12,14 @@ export default function HomeReview() {
             <div className={Style.review_list_wrap}>
                 <ul className={Style.review_list}>
                     <li>
+                        <div className={Style.products_img}>
+                            <img src='../images/review_product_img01.jpg' alt='리뷰상품이미지01'/>
+                        </div>
                         <p className={Style.review_products_name}>
                             [토미카]드림토키마 지브리 09...
                         </p>
                         <div className={Style.review_products_img}>
-
+                            <img src='../images/review_img01.jpg' alt='리뷰이미지01'/>
                         </div>
                         <div className={Style.review_intro}>
                             <p className={Style.review_star}>
@@ -33,11 +36,14 @@ export default function HomeReview() {
                         </div>
                     </li>
                     <li>
+                        <div className={Style.products_img}>
+                            <img src='../images/review_product_img02.jpg' alt='리뷰상품이미지02'/>
+                        </div>
                         <p className={Style.review_products_name}>
                             [토미카]드림토키마 지브리 09...
                         </p>
                         <div className={Style.review_products_img}>
-
+                            <img src='../images/review_img02.jpg' alt='리뷰이미지02'/>
                         </div>
                         <div className={Style.review_intro}>
                             <p className={Style.review_star}>
@@ -54,11 +60,14 @@ export default function HomeReview() {
                         </div>
                     </li>
                     <li>
+                        <div className={Style.products_img}>
+                            <img src='../images/review_product_img03.jpg' alt='리뷰상품이미지03'/>
+                        </div>
                         <p className={Style.review_products_name}>
                             [토미카]드림토키마 지브리 09...
                         </p>
                         <div className={Style.review_products_img}>
-
+                            <img src='../images/review_img03.jpg' alt='리뷰이미지03'/>
                         </div>
                         <div className={Style.review_intro}>
                             <p className={Style.review_star}>

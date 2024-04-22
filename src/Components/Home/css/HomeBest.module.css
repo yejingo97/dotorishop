@@ -67,7 +67,9 @@ ul.best_products_list li:last-child{
 p.best_products_img{
     width: 100%;
     height: 234px;
-    background: rgb(82, 82, 82);
+}
+p.best_products_img img{
+    border-radius: 15px;
 }
 p.best_products_movie{
     font: normal 14px 'Noto Sans KR';
