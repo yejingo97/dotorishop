@@ -2,13 +2,19 @@ import React from 'react'
 import Style from './css/Visual.module.css'
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import './css/Swiper.css';
+
+import { Navigation } from 'swiper/modules';
 
 export default function Visual() {
   return (
     <div className={Style.visual_wrap}>
         <div className={Style.visual}>
-            <ul className={Style.visual_list}>
-                <li>
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                <SwiperSlide>
                     <p className={Style.visual_img}>
                         <img src='../images/visual01_img.jpg' alt='비주얼이미지01'/>
                     </p>
@@ -27,8 +33,8 @@ export default function Visual() {
                             </span>
                         </button>
                     </p>
-                </li>
-                <li>
+                </SwiperSlide>
+                <SwiperSlide>
                     <p className={Style.visual_img}>
                         <img src='../images/visual02_img.jpg' alt='비주얼이미지02'/>
                     </p>
@@ -47,8 +53,8 @@ export default function Visual() {
                             </span>
                         </button>
                     </p>
-                </li>
-                <li>
+                </SwiperSlide>
+                <SwiperSlide>
                     <p className={Style.visual_img}>
                         <img src='../images/visual03_img.jpg' alt='비주얼이미지03'/>
                     </p>
@@ -68,8 +74,8 @@ export default function Visual() {
                             </span>
                         </button>
                     </p>
-                </li>
-                <li>
+                </SwiperSlide>
+                <SwiperSlide>
                     <p className={Style.visual_img}>
                         <img src='../images/visual04_img.jpg' alt='비주얼이미지04'/>
                     </p>
@@ -89,8 +95,8 @@ export default function Visual() {
                             </span>
                         </button>
                     </p>
-                </li>
-            </ul>
+                </SwiperSlide>
+            </Swiper>
             <div className={Style.visual_num}>
                 1 / 4
             </div>
